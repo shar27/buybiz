@@ -9,6 +9,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [successMessage, setSuccessMessage] = useState('')
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,14 +25,16 @@ export const Contact = (props) => {
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_39bg1xq", "template_pju0m5e", e.target, "_zvfCNAUf1DOGw6zi")
       .then(
         (result) => {
           console.log(result.text);
+          setSuccessMessage('Your Email has been received!')
           clearState();
         },
         (error) => {
           console.log(error.text);
+          setSuccessMessage('Your Email has been not been received!')
         }
       );
   };
@@ -47,6 +50,7 @@ export const Contact = (props) => {
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
                 </p>
+              <p style={{color: 'white', fontWeight: '700'}}> {successMessage}</p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
