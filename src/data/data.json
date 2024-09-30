@@ -1,21 +1,18 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Sell my business online",
+    "paragraph": "Need to sell your business fast? We are not brokers, we are investors and we can make an offer the same week. Get in touch today!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Welcome to our M&A team! We are a team of experienced professionals who specialize in mergers and acquisitions. With our expertise in finance, law, and business strategy, we are dedicated to helping businesses achieve their strategic goals through M&A.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Our team has a proven track record of success, having worked on numerous high-profile transactions across a range of industries. We bring a deep understanding of the complexities involved in M&A, from due diligence and valuation to negotiation and integration."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "We take a collaborative approach to M&A, working closely with our clients to understand their unique needs and develop customized solutions that align with their goals. We believe that open and transparent communication is key to a successful transaction, and we strive to build strong relationships with our clients based on trust and respect."
+    ],
+    "Why3": [
+      "Business brokers are expensive and often get in the way, we have a dedicated team of experts that allow us to make an offer and begin the process of the acquisition. Get in touch today."
     ]
   },
   "Gallery": [
@@ -131,33 +128,17 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "img": "img/team/me.jpg",
+      "name": "Shariq Ahmed",
       "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
     }
+  
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "",
+    "phone": "+44 3330 360 6113",
+    "email": "hello@sellingmybusinessonline.co.uk",
+    "Linkedin": "https://www.linkedin.com/in/shar-ahmed-671314270/"
   },
   "Features": [
     {
